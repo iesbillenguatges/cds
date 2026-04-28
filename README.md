@@ -9,12 +9,11 @@ XML (*eXtensible Markup Language*) és un llenguatge per **emmagatzemar i estruc
 **✔️ Estructura del document**
 
 * **Declaració inicial**:   
-* 
+
 
 \<?xml version="1.0" encoding="UTF-8"?\>
 
 * **Associació amb XSLT**:   
-* 
 
 \<?xml-stylesheet type="text/xsl" href="transforma.xsl"?\>
 
