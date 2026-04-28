@@ -10,13 +10,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <th>Title</th>
       <th>Artist</th>
     </tr>
-  <xsl:for-each select="CATALOG/CD">
-  <xsl:sort select="ARTIST"/>
-  <tr>
-    <td><xsl:value-of select="TITLE"/></td>
-    <td><xsl:value-of select="ARTIST"/></td>
-  </tr>
-  </xsl:for-each>
+    <xsl:for-each select="CATALOG/CD">
+    <xsl:sort select="ARTIST"/>
+    <tr>
+      <td><xsl:value-of select="TITLE"/></td>
+      <td><xsl:value-of select="ARTIST"/></td>
+    </tr>
+    </xsl:for-each>
   </table>
 </body>
 </html>
